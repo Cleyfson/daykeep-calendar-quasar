@@ -52,7 +52,7 @@
           :calendar-timezone="calendarTimezone"
           :prevent-event-detail="preventEventDetail"
           :allow-editing="allowEditing"
-
+          :render-html="renderHtml"
         />
       </q-tab-panel>
       <q-tab-panel name="tab-week-component" class="calendar-tab-panel-week">
@@ -71,7 +71,7 @@
           :prevent-event-detail="preventEventDetail"
           :allow-editing="allowEditing"
           :day-display-start-hour="dayDisplayStartHour"
-
+          :render-html="renderHtml"
         />
       </q-tab-panel>
       <q-tab-panel name="tab-days-component" class="calendar-tab-panel-week">
@@ -90,7 +90,7 @@
           :prevent-event-detail="preventEventDetail"
           :allow-editing="allowEditing"
           :day-display-start-hour="dayDisplayStartHour"
-
+          :render-html="renderHtml"
         />
       </q-tab-panel>
       <q-tab-panel name="tab-single-day-component" class="calendar-tab-panel-week">
@@ -109,7 +109,7 @@
           :prevent-event-detail="preventEventDetail"
           :allow-editing="allowEditing"
           :day-display-start-hour="dayDisplayStartHour"
-
+          :render-html="renderHtml"
         />
       </q-tab-panel>
       <q-tab-panel name="tab-agenda" class="calendar-tab-panel-agenda">
@@ -126,6 +126,7 @@
           :calendar-timezone="calendarTimezone"
           :prevent-event-detail="preventEventDetail"
           :allow-editing="allowEditing"
+          :render-html="renderHtml"
         />
       </q-tab-panel>
     </q-tab-panels>
